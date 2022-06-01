@@ -18,7 +18,7 @@ c1=10000
 d1=10000
 e1=10000
 f1=10000
-image = Image.open('sensor.png', "rb")
+image = Image.open('sensor.png', 'rb')
 st.image(image, caption='DFC Mine')
 while i == 0:
 #Sensor 1 Temperature 

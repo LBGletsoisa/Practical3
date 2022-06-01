@@ -18,8 +18,8 @@ c1=10000
 d1=10000
 e1=10000
 f1=10000
-image = Image.open('sensor.png', 'rb')
-st.image(image, caption='DFC Mine')
+image = Image.open('sensor.png')
+st.image(image, caption='DFC Mine', width=1000)
 while i == 0:
 #Sensor 1 Temperature 
  datafromwebsite=urllib.request.urlopen("https://api.thingspeak.com/channels/1708546/fields/1.json?results=1");
